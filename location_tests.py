@@ -12,7 +12,6 @@ class TestLab1(unittest.TestCase):
         loc2 = Location("SLO", 35.3, -120.7)
         loc3 = Location("Paris", 48.9, 2.4)
         self.assertEqual(loc1, loc2)
-
         self.assertNotEqual(loc1, loc3)
         self.assertNotEqual(loc3, loc2)
 
