@@ -12,6 +12,7 @@ class Location:
 
     def __eq__(self, other):
         return (type(other)==Location and self.lat==other.lat and self.lon == other.lon and self.name == other.name)
+
 def main():
     loc1 = Location("SLO", 35.3, -120.7)
     loc2 = Location("Paris", 48.9, 2.4)
